@@ -29,10 +29,13 @@ git clone https://github.com/connext/nxtp-router-docker-compose.git
 git checkout amarok
 ```
 ## Далее заходим в файл nxtp-router-docker-compose и настраиваем config
-Переименовываем ```.env.example``` на ```.env``` и проверяем свой файл .env
+Переименовываем ```.env.example``` на ```.env``` и ```config.example.yaml``` на  ```config.yaml``` проверяем свой файл .env
 ```
-mv .env.example .env
-
+mv .env.example .env & mv config.example.yaml config.yaml
+```
+провіряємо файли
+```
 nano .env
 ```
+
 
