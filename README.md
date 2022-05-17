@@ -37,6 +37,5 @@ mv .env.example .env & mv config.example.yaml config.yaml
 ```
 nano .env
 ```
-![Screenshot from 2022-05-17 17-39-26](https://user-images.githubusercontent.com/59205554/168854862-64e630f1-445f-404e-a24e-5f6f363cacf8.png)
 
 
