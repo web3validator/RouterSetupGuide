@@ -64,7 +64,7 @@ cat .env
 ```
 
 Тепер нам потрібно отримати ```LOGDNA_KEY``` ```DISCORD_WEBHOOK```
-* Для получения ```LOGDNA_KEY``` переходим по ссылке и регистрируемся https://www.logdna.com/ [https://www.logdna.com/](https://www.logdna.com/)
+* Для получения ```LOGDNA_KEY``` переходим по ссылке и регистрируемся https://www.logdna.com/
 ![Screenshot from 2022-05-18 13-58-38](https://user-images.githubusercontent.com/59205554/169023703-fb5109ca-ddb9-491c-a710-9b63e5ecb596.png)
 * Для получения ```DISCORD_WEBHOOK``` переходим по ссылке [DISCORD_WEBHOOK](https://squadguide.net/ru/%D0%BA%D0%B0%D0%BA-%D1%81%D0%BE%D0%B7%D0%B4%D0%B0%D1%82%D1%8C-discord-webhook-%D0%B4%D0%BB%D1%8F-%D0%BF%D1%80%D0%BE%D1%81%D1%82%D0%BE%D0%B9-%D0%BE%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%BA%D0%B8-%D1%81)
 
