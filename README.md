@@ -54,10 +54,43 @@ git checkout amarok
 
 ```
 ![Screenshot from 2022-05-18 12-30-55](https://user-images.githubusercontent.com/59205554/169007548-ac8dfccb-7a60-4f13-b3ce-f595550d5fda.png)
-## Далее заходим в файл nxtp-router-docker-compose и настраиваем config
-Переименовываем ```.env.example``` на ```.env```, ```config.example.yaml``` на  ```config.yaml``` и ```key.example.yaml``` на ```key.yaml```
+## Далее заходим в папку nxtp-router-docker-compose и переименовываем файлы
+Переименовываем ```.env.example``` -> ```.env```, ```config.example.yaml``` -> ```config.yaml``` и ```key.example.yaml``` -> ```key.yaml```
 ```
 mv .env.example .env && mv config.example.json config.json && mv key.example.yaml key.yaml
+
+```
+Изменяем файл config.json
+```
+tee ~/nxtp-router-docker-compose/config.json &>/dev/null <<EOF
+{
+  "chains": {
+    "1111": {
+      "assets": [
+        {
+          "address": "0xB7b1d3cC52E658922b2aF00c5729001ceA98142C",
+          "name": "TEST"
+        }
+      ],
+      "providers": ["https://eth-rinkeby.alchemyapi.io/v2/Bi4KoxT0rgjHsmVvMRtdY_9rwrTsdY2h", "https://rpc.ankr.com/eth_rinkeby"]
+    },
+    "2221": {
+      "assets": [
+        {
+          "address": "0xB5AabB55385bfBe31D627E2A717a7B189ddA4F8F",
+          "name": "TEST"
+        }
+      ],
+      "providers": ["https://eth-kovan.alchemyapi.io/v2/eEcEgHdAt3fkZkRmzbaI-Sv_1Gw6OxrB"]
+    }
+  },
+  "logLevel": "debug",
+  "mnemonic": "",
+  "sequencerUrl": "https://sequencer.testnet.connext.ninja",
+  "server": { "adminToken": "blahblahblah" },
+  "environment": "production"
+}
+EOF
 
 ```
 ### Redis
