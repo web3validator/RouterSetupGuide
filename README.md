@@ -17,6 +17,7 @@ https://www.connext.network/
 ## Заходим в root пользователя
 ```
 sudo su
+cd
 
 ```
 
