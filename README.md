@@ -1,5 +1,22 @@
 # RouterSetupGuide
 
+Connext Router Setup
+0x8847
+May 15th, 2022
+
+https://www.connext.network/
+https://www.connext.network/
+Connext router node setup for Connext Contributor Program
+
+Official documents:
+
+Spinning Up a Router
+
+Minimum Hardware Requirements:
+8GB RAM
+30GB Storage
+Redis
+
 ## Cначала обновляем пакеты
 ```
 sudo apt update && sudo apt upgrade -y
