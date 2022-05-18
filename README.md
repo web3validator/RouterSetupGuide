@@ -1,6 +1,6 @@
 # RouterSetupGuide
 
-## Connext Router Setup
+### Connext Router Setup
 
 ![connext__Logo+++WhiteText+MultiColor](https://user-images.githubusercontent.com/59205554/168984854-6cdea57a-0ffd-4f72-8380-508ef889eed9.png)
 
@@ -13,8 +13,8 @@ Official documents:
 Spinning Up a Router
 
 ## Minimum Hardware Requirements:
-* 8GB RAM
-* 30GB Storage
+* 8GB ОЗУ
+* 30GB Хранилище
 * Redis
 ## Cначала обновляем пакеты
 ```
