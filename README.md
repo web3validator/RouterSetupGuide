@@ -49,7 +49,8 @@ cd ~/nxtp-router-docker-compose
 git checkout amarok
 
 ```
-![Screenshot from 2022-05-18 12-30-55](https://user-images.githubusercontent.com/59205554/169007548-ac8dfccb-7a60-4f13-b3ce-f595550d5fda.png)
+![Screenshot from 2022-05-18 13-39-58](https://user-images.githubusercontent.com/59205554/169020697-b8ed742f-8154-405f-aa7c-2936da3cdd45.png)
+
 ## Далее заходим в папку nxtp-router-docker-compose и переименовываем файлы
 Переименовываем ```.env.example``` -> ```.env```, ```config.example.yaml``` -> ```config.yaml``` и ```key.example.yaml``` -> ```key.yaml```
 ```
