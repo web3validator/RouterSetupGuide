@@ -9,7 +9,7 @@ https://www.connext.network/
 
 Настройка узла маршрутизатора Connext для программы Connext Contributor
 
-## Minimum Hardware Requirements:
+## Минимальные требования к оборудованию:
 * 8GB ОЗУ
 * 30GB Хранилище
 * Redis
