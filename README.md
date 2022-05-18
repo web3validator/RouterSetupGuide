@@ -62,6 +62,8 @@ mv .env.example .env && mv config.example.json config.json && mv key.example.yam
 cat .env
 
 ```
+![Screenshot from 2022-05-18 15-03-55](https://user-images.githubusercontent.com/59205554/169034699-0ac24dfc-5b31-47fd-8343-d0024f12c282.png)
+
 
 Тепер нам потрібно отримати ```LOGDNA_KEY``` ```DISCORD_WEBHOOK```
 * Для получения ```LOGDNA_KEY``` переходим по ссылке и регистрируемся https://www.logdna.com/
