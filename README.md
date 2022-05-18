@@ -1,16 +1,12 @@
 # RouterSetupGuide
 
-### Connext Router Setup
+## Connext Router Setup
 
 ![connext__Logo+++WhiteText+MultiColor](https://user-images.githubusercontent.com/59205554/168984854-6cdea57a-0ffd-4f72-8380-508ef889eed9.png)
 
 https://www.connext.network/
 
-Connext router node setup for Connext Contributor Program
-
-Official documents:
-
-Spinning Up a Router
+Настройка узла маршрутизатора Connext для программы Connext Contributor
 
 ## Minimum Hardware Requirements:
 * 8GB ОЗУ
