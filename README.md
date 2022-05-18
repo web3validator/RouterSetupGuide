@@ -83,6 +83,8 @@ EOF
 cat key.yaml
 
 ```
+![Screenshot from 2022-05-18 12-58-35](https://user-images.githubusercontent.com/59205554/169013248-2a7c6bda-fc13-4528-8664-8e62af896b8f.png)
+
 
 ## Создаем docker-compose service
 ```
