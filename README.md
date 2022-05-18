@@ -13,10 +13,9 @@ Official documents:
 Spinning Up a Router
 
 ## Minimum Hardware Requirements:
-8GB RAM
-30GB Storage
-Redis
-
+* 8GB RAM
+* 30GB Storage
+* Redis
 ## Cначала обновляем пакеты
 ```
 sudo apt update && sudo apt upgrade -y
