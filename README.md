@@ -57,18 +57,18 @@ git checkout amarok
 ## Далее заходим в файл nxtp-router-docker-compose и настраиваем config
 Переименовываем ```.env.example``` на ```.env``` и ```config.example.yaml``` на  ```config.yaml``` проверяем свой файл .env
 ```
-mv .env.example .env && mv config.example.json config.yaml
+mv .env.example .env && mv config.example.json config.yaml && key.example.yaml key.yaml
 
 ```
 ### Redis
 Маршрутизатор по умолчанию использует внутренний экземпляр Redis в Docker. Однако, если вы предпочитаете использовать внешний экземпляр Redis, вы можете указать соответствующие поля хоста и порта в config.json. Инструкции можно найти на веб-сайте Redis.
 
-## Создаем файл key.yaml
+## Меняем середину файла key.yaml
 Твой частный ключ:
 ```
 YOUR_PRIKEY=
 ```
-Создаем файл key.yaml
+Изменяем файл key.yaml
 ```
 tee ~/nxtp-router-docker-compose/key.yaml &>/dev/null <<EOF
 type: "file-raw"
