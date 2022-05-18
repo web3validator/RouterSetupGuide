@@ -13,9 +13,15 @@ https://www.connext.network/
 * 8GB ОЗУ
 * 30GB Хранилище
 * Redis
-## Cначала обновляем пакеты
+
+## Заходим в root пользователя
 ```
 sudo su
+
+```
+
+## Cначала обновляем пакеты
+```
 sudo apt update && sudo apt upgrade -y
 
 ```
