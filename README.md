@@ -136,12 +136,20 @@ docker-compose create
 ## Запустить docker-compose
 ```
 docker-compose up -d
+
 ```
-## Проверить logs
+## Проверить logs router
 ```
 docker-compose logs router
+
+```
+## Проверить logs node 
+```
+docker logs --follow --tail 100 router
+
 ```
 ## Перезапустите docker-compose service
 ```
 docker-compose restart
+
 ```
