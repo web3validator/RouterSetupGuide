@@ -2,7 +2,8 @@
 
 ## Connext Router Setup
 
-![connext__Logo+++WhiteText+MultiColor](https://user-images.githubusercontent.com/59205554/168984854-6cdea57a-0ffd-4f72-8380-508ef889eed9.png)
+![connext__Logo+++WhiteText+MultiColor](https://user-images.githubusercontent.com/59205554/168988145-b6f4848e-fcde-4ff0-9470-565c20f499b3.png)
+
 
 https://www.connext.network/
 
