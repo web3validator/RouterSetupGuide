@@ -51,7 +51,7 @@ cd ~
 git clone https://github.com/connext/nxtp-router-docker-compose.git
 
 ```
-![Screenshot from 2022-05-18 10-32-36](https://user-images.githubusercontent.com/59205554/168983093-7e8d6b0d-41f4-4d33-bd2d-4d416c20b6e9.png)
+![Screenshot from 2022-05-18 12-30-55](https://user-images.githubusercontent.com/59205554/169007548-ac8dfccb-7a60-4f13-b3ce-f595550d5fda.png)
 ## Далее заходим в файл nxtp-router-docker-compose и настраиваем config
 Переименовываем ```.env.example``` на ```.env``` и ```config.example.yaml``` на  ```config.yaml``` проверяем свой файл .env
 ```
