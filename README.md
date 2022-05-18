@@ -108,7 +108,7 @@ EOF
 
 ```
 Провіряємо key.yaml.
-В рядку ```privateKey:``` ти побачиш свій ключ
+В строке ```privateKey:``` ты увидишь свой ключ
 ```
 cat key.yaml
 
@@ -126,7 +126,7 @@ docker-compose create
 ```
 docker-compose up -d
 ```
-## Проверьте the logs
+## Проверить logs
 ```
 docker-compose logs router
 ```
