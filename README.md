@@ -58,11 +58,7 @@ git clone https://github.com/connext/nxtp-router-docker-compose.git
 ```
 mv .env.example .env & mv config.example.yaml config.yaml
 ```
-провіряємо файли
-```
-nano .env
-```
-
+### Redis
 Маршрутизатор по умолчанию использует внутренний экземпляр Redis в Docker. Однако, если вы предпочитаете использовать внешний экземпляр Redis, вы можете указать соответствующие поля хоста и порта в config.json. Инструкции можно найти на веб-сайте Redis.
 
 ## Создаем файл key.yaml
@@ -79,4 +75,21 @@ privateKey: "$YOUR_PRIKEY"
 EOF
 
 ```
+## Создаем docker-compose service
+```
+cd ~/nxtp-router-docker-compose
+docker-compose create
 
+```
+## Запустить docker-compose
+```
+docker-compose up -d
+```
+## Проверьте the logs
+```
+docker-compose logs router
+```
+## Перезапустите docker-compose service
+```
+docker-compose restart
+```
