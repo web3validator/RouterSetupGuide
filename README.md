@@ -55,7 +55,9 @@ git clone https://github.com/connext/nxtp-router-docker-compose.git
 ## Далее заходим в файл nxtp-router-docker-compose и настраиваем config
 Переименовываем ```.env.example``` на ```.env``` и ```config.example.yaml``` на  ```config.yaml``` проверяем свой файл .env
 ```
+cd ~/nxtp-router-docker-compose
 mv .env.example .env & mv config.example.yaml config.yaml
+
 ```
 ### Redis
 Маршрутизатор по умолчанию использует внутренний экземпляр Redis в Docker. Однако, если вы предпочитаете использовать внешний экземпляр Redis, вы можете указать соответствующие поля хоста и порта в config.json. Инструкции можно найти на веб-сайте Redis.
