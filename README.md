@@ -49,6 +49,8 @@ sudo chown $USER /var/run/docker.sock
 ```
 cd ~
 git clone https://github.com/connext/nxtp-router-docker-compose.git
+cd ~/nxtp-router-docker-compose
+git checkout amarok
 
 ```
 ![Screenshot from 2022-05-18 12-30-55](https://user-images.githubusercontent.com/59205554/169007548-ac8dfccb-7a60-4f13-b3ce-f595550d5fda.png)
