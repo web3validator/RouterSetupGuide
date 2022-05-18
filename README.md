@@ -66,12 +66,16 @@ nano .env
 Маршрутизатор по умолчанию использует внутренний экземпляр Redis в Docker. Однако, если вы предпочитаете использовать внешний экземпляр Redis, вы можете указать соответствующие поля хоста и порта в config.json. Инструкции можно найти на веб-сайте Redis.
 
 ## Создаем файл key.yaml
-
+Твой частный ключ:
 ```
-tee ~/key.yaml &>/dev/null <<EOF
+YOUR_PRIKEY=
+```
+Создаем файл key.yaml
+```
+tee ~/nxtp-router-docker-compose/key.yaml &>/dev/null <<EOF
 type: "file-raw"
 keyType: "SECP256K1"
-privateKey: "YOUR_PRIKEY"
+privateKey: "$YOUR_PRIKEY"
 EOF
 
 ```
