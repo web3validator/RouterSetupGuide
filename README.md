@@ -1,7 +1,7 @@
 # RouterSetupGuide
 
 ## Connext Router Setup
-
+[![LOGO](https://images.squarespace-cdn.com/content/v1/619f86b8de2c6f4f7fa201c0/8eaeca35-ccf3-495f-9e9a-19fbec796187/connext__Logo+%2B+WhiteText+MultiColor.png)](https://www.connext.network/)
 ![connext__Logo+++WhiteText+MultiColor](https://user-images.githubusercontent.com/59205554/168988145-b6f4848e-fcde-4ff0-9470-565c20f499b3.png)
 
 
