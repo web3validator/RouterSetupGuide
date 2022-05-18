@@ -57,7 +57,7 @@ git checkout amarok
 ## Далее заходим в файл nxtp-router-docker-compose и настраиваем config
 Переименовываем ```.env.example``` на ```.env```, ```config.example.yaml``` на  ```config.yaml``` и ```key.example.yaml``` на ```key.yaml```
 ```
-mv .env.example .env && mv config.example.json config.yaml && mv key.example.yaml key.yaml
+mv .env.example .env && mv config.example.json config.json && mv key.example.yaml key.yaml
 
 ```
 ### Redis
