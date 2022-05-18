@@ -77,6 +77,13 @@ privateKey: "$YOUR_PRIKEY"
 EOF
 
 ```
+Провіряємо key.yaml.
+В рядку ```privateKey:``` ти побачиш свій ключ
+```
+cat key.yaml
+
+```
+
 ## Создаем docker-compose service
 ```
 cd ~/nxtp-router-docker-compose
