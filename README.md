@@ -1,6 +1,10 @@
 # RouterSetupGuide
 
 ## Connext Router Setup
+
+https://user-images.githubusercontent.com/59205554/169454442-6d328a2c-eda9-4355-92ae-6119ef5dfa6f.mp4
+
+
 [![LOGO](https://images.squarespace-cdn.com/content/v1/619f86b8de2c6f4f7fa201c0/8eaeca35-ccf3-495f-9e9a-19fbec796187/connext__Logo+%2B+WhiteText+MultiColor.png)](https://www.connext.network/)
 
 Настройка узла маршрутизатора Connext для программы Connext Contributor
