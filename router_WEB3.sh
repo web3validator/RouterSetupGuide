@@ -45,10 +45,7 @@ function Install_docker {
     fi
     echo " "
     echo -e "\e[1m\e[32mInstalling Docker Compose v2.5.1 ... \e[0m" && sleep 1
-    mkdir -p ~/.docker/cli-plugins/
-    curl -SL https://github.com/docker/compose/releases/download/v2.2.3/docker-compose-linux-x86_64 -o ~/.docker/cli-plugins/docker-compose
-    chmod +x ~/.docker/cli-plugins/docker-compose
-    sudo chown $USER /var/run/docker.sock
+    apt install docker-compose
 }
 
 function install_nxtp {
