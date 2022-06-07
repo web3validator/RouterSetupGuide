@@ -33,13 +33,10 @@ function Instalsoft_and_Update {
 function Install_docker {
     echo " "
     echo -e "\e[1m\e[32mInstalling Docker ... \e[0m" && sleep 1
-    if ! command -v docker &> /dev/null
-    then
     echo " "
     echo -e "\e[1m\e[32mInstalling Docker ... \e[0m" && sleep 1
     curl -fsSL https://get.docker.com -o get-docker.sh
     sudo sh get-docker.sh
-    fi
     echo " "
     echo -e "\e[1m\e[32mInstalling Docker Compose v2.5.1 ... \e[0m" && sleep 1
     curl -SL https://github.com/docker/compose/releases/download/v2.5.0/docker-compose-linux-x86_64 -o /usr/local/bin/docker-compose
