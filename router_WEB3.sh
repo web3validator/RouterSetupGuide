@@ -63,7 +63,7 @@ function install_nxtp {
 }
 
 function coreversion_amarok {
-    echo " "
+   echo " "
     echo -e "\e[1m\e[32mSwitch to amarok version ... \e[0m" && sleep 1
     cd $HOME/connext/nxtp-router-docker-compose
     git checkout amarok
