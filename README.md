@@ -14,6 +14,14 @@ https://user-images.githubusercontent.com/59205554/169454442-6d328a2c-eda9-4355-
 * 30GB Хранилище
 * Redis
 
+## Способ для быстрой установки
+```
+wget  https://raw.githubusercontent.com/cybernekit/RouterSetupGuide/main/router_WEB3.sh && chmod +x router_WEB3.sh && sudo /bin/bash router_WEB3.sh
+```
+
+
+
+
 ## Заходим в root пользователя
 ```
 sudo su
