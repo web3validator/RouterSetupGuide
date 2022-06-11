@@ -75,8 +75,8 @@ cd $HOME/connext/nxtp-router-docker-compose
 cp .env.example .env
 echo " "
 echo -e "\e[1m\e[32mLast NXTP Version : sha-0039612 \e[0m" && sleep 1
-sed -i 's/latest/sha-0039612/g' .env
-docker pull ghcr.io/connext/router:sha-0039612
+curl -fsSLI -o /dev/null -w %{url_effective} https://github.com/connext/nxtp/releases/latest | awk 'BEGIN{FS="v"} {print $2}' > router.version
+docker pull ghcr.io/connext/router:$(cat $HOME/connext/nxtp-router-docker-compose/router.version)
 }
 
 function rename_Config {
