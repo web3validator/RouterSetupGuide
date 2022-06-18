@@ -15,6 +15,7 @@ https://user-images.githubusercontent.com/59205554/169454442-6d328a2c-eda9-4355-
 * Redis
 
 ## Способ для быстрой установки
+Утуб посилання для встановлення через bash скрипт ```https://www.youtube.com/watch?v=MLVI7PYNDPM&ab_channel=VasyaBTC```:
 ```
 wget  https://raw.githubusercontent.com/cybernekit/RouterSetupGuide/main/router_WEB3.sh && chmod +x router_WEB3.sh && sudo /bin/bash router_WEB3.sh
 ```
