@@ -1,5 +1,10 @@
 # RouterSetupGuide
 
+## Как получить к твоей безопасности 90%
+
+https://github.com/cybernekit/RouterSetupGuide/blob/main/Secure-connection%D1%8E.md
+
+
 ## Connext Router Setup
 
 https://user-images.githubusercontent.com/59205554/169454442-6d328a2c-eda9-4355-92ae-6119ef5dfa6f.mp4
@@ -170,7 +175,3 @@ docker-compose restart
 ```
 
 
-
-### Как получить к твоей безопасности 90%
-
-https://github.com/cybernekit/RouterSetupGuide/blob/main/Secure-connection%D1%8E.md
