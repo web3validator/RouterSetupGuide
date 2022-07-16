@@ -2,7 +2,7 @@
 
 ## Как получить к твоей безопасности 90%
 
-https://github.com/cybernekit/RouterSetupGuide/blob/main/Secure-connection%D1%8E.md
+ [secure connection](https://github.com/cybernekit/RouterSetupGuide/blob/main/Secure-connection%D1%8E.md)
 
 
 ## Connext Router Setup
